@@ -2,7 +2,8 @@
   "name": "allie",
   "version": "0.1.0",
   "description": "An accessible base stylesheet",
-  "main": "index.js",
+  "main": "dist/allie.css",
+  "style": "dist/allie.css",
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^8.0.0",
