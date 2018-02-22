@@ -1,0 +1,8 @@
+{
+  "plugins": {
+    "autoprefixer": {
+      "browsers": ["defaults", "ie 8-11"]
+    },
+    "postcss-pxtorem": {}
+  }
+}

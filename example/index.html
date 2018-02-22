@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Allie example page</title>
+  <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css">
+  <link rel="stylesheet" href="../dist/allie.css">
+</head>
+
+<body>
+  <h1>Allie examples</h1>
+  <section id="typography" aria-labelledby="typography-heading">
+    <h2 id="typography-heading">Typography</h2>
+    <h3>Paragraph</h3>
+    <p>This is a paragraph.</p>
+    <h3>Unordered list</h3>
+    <ul>
+      <li>apples</li>
+      <li>oranges</li>
+      <li>pears</li>
+    </ul>
+    <h3>Ordered list</h3>
+    <ol>
+      <li>A New Hope</li>
+      <li>The Empire Stikes Back</li>
+      <li>Return of the Jedi</li>
+    </ol>
+  </section>
+  <section id="forms" aria-labelledby="forms-heading">
+    <h2 id="forms-heading">Forms</h2>
+    <form method=POST>
+      <fieldset>
+        <legend>Legend</legend>
+
+        <label>Fieldset label 1</label>
+        <input type="text" id="day" name="day">
+
+        <label>Fieldset label 2</label>
+        <input type="text" id="month" name="month">
+      </fieldset>
+
+      <fieldset>
+        <legend>Select one of the following</legend>
+
+        <input id="radio-1" type="radio" name="radio-group">
+        <label for="radio-1">Radio 1</label>
+        <br>
+
+        <input id="radio-2" type="radio" name="radio-group">
+        <label for="radio-2">Radio 2</label>
+        <br>
+
+        <input id="radio-3" type="radio" name="radio-group">
+        <label for="radio-3">Radio 3</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Select all that apply</legend>
+
+        <input id="checkbox-1" type="checkbox" name="checkbox-group">
+        <label for="checkbox-1">Checkbox 1</label>
+        <br>
+
+        <input id="checkbox-2" type="checkbox" name="checkbox-group">
+        <label for="checkbox-2">Checkbox 2</label>
+        <br>
+
+        <input id="checkbox-3" type="checkbox" name="checkbox-group">
+        <label for="checkbox-3">Checkbox 3</label>
+      </fieldset>
+
+      <label for="name ">Name</label>
+      <input type="text" id="name" name="name">
+
+      <label for="email">Email address</label>
+      <input type="email" id="email" name="email">
+
+      <label for="telephone ">Telephone number</label>
+      <input type="tel" id="telephone" name="telephone">
+
+      <label for="email ">Password</label>
+      <input type="password" id="password" name="password">
+
+      <button type="button">Button</button>
+
+
+      <button>Submit</button>
+    </form>
+  </section>
+</body>
+
+</html>

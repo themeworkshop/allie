@@ -1,2 +1,3 @@
 # allie
-An accessible base stylesheet for legacy browser support
+
+An accessible base stylesheet
