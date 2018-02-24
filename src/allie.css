@@ -12,7 +12,8 @@ body {
 /* Typography */
 ol,
 ul {
-  padding-left: 1em;
+  list-style-position: inside;
+  padding-left: 0;
 }
 
 /* Forms */
