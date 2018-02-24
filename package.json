@@ -1,9 +1,10 @@
 {
-  "name": "allie",
-  "version": "0.1.0",
+  "name": "@themeworkshop/allie",
+  "version": "0.1.1",
   "description": "An accessible base stylesheet",
   "main": "dist/allie.css",
   "style": "dist/allie.css",
+  "files": ["LICENSE", "dist/allie.css"],
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^8.0.0",
