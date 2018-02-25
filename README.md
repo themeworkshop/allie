@@ -1,4 +1,4 @@
-# allie
+# Allie
 
 Allie is a base stylesheet intended to provide basic, opinonated and accessible defaults for starting a project or using as a fallback style for legacy browsers. It is opinionated and builds upon the defaults set by [normalize.css](https://necolas.github.io/normalize.css/).
 
@@ -20,4 +20,5 @@ Examples of the styles should be visible in the html file in the example directo
 ## Legal information
 
 Allie is maintained by Theme Workshop, a brand of Doublethink Studios LLP.
+
 It is distributed under the MIT license.
