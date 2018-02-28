@@ -19,6 +19,10 @@ The stylesheet in the source directory is compiled to the dist directory using [
 
 Examples of the styles should be visible in the html file in the example directory.
 
+## Browser support
+
+The project is planning to support Internet Explorer 9 and above and the latest versions of Chrome, Edge, Firefox and Safari.
+
 ## Legal information
 
 Allie is maintained by Theme Workshop, a brand of Doublethink Studios LLP.

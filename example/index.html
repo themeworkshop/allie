@@ -2,8 +2,13 @@
 <html>
 
 <head>
-  <title>Allie example page</title>
+  <title>Allie test page</title>
   <link rel="stylesheet" href="../dist/allie.css">
+  <style>
+    body {
+      margin: 1em;
+    }
+  </style>
 </head>
 
 <body>
@@ -37,13 +42,15 @@
     <p>
       <small>This is small text</small>
     </p>
-
-    <!--
-    <details>
-      <summary>Click this summary for more information</summary>
-      <p>This is more information than the summary provides.</p>
-    </details>
-    -->
+  </section>
+  <section id="media" aria-labelledby="media-heading">
+    <h2 id="form-heading">Media</h2>
+    <h3>Images</h3>
+    <img src="example/320x200.png" alt="example image">
+    <h3>Pictures</h3>
+    <picture>
+      <source href="example/320x200">
+    </picture>
   </section>
   <section id="forms" aria-labelledby="forms-heading">
     <h2 id="forms-heading">Forms</h2>
