@@ -13,18 +13,38 @@
     <h2 id="typography-heading">Typography</h2>
     <h3>Paragraph</h3>
     <p>This is a paragraph.</p>
+    <blockquote>This is a block quote.</blockquote>
+
     <h3>Unordered list</h3>
     <ul>
       <li>apples</li>
       <li>oranges</li>
       <li>pears</li>
     </ul>
+
     <h3>Ordered list</h3>
     <ol>
       <li>A New Hope</li>
       <li>The Empire Stikes Back</li>
       <li>Return of the Jedi</li>
     </ol>
+
+    <h3>Text</h3>
+    <p>This is a paragraph with an abbreviation like
+      <abbr title="Three Letter Abbreviation">TLA</abbr>.
+    </p>
+    <p>Sometimes we want to
+      <a href="https://developer.mozilla.org/">link to other pages</a>.</p>
+    <p>
+      <small>This is small text</small>
+    </p>
+
+    <!--
+    <details>
+      <summary>Click this summary for more information</summary>
+      <p>This is more information than the summary provides.</p>
+    </details>
+    -->
   </section>
   <section id="forms" aria-labelledby="forms-heading">
     <h2 id="forms-heading">Forms</h2>
@@ -80,6 +100,15 @@
 
       <label for="email ">Password</label>
       <input type="password" id="password" name="password">
+
+      <label for="date ">Date</label>
+      <input type="datetime-local" id="date" name="date">
+
+      <label for="time ">Time</label>
+      <input type="time" id="time" name="time">
+
+      <label for="search ">Search</label>
+      <input type="search" id="search" name="search">
 
       <label for="email ">Country</label>
       <select type="country" id="country" name="country">
