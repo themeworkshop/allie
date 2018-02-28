@@ -1,0 +1,15 @@
+/* Links */
+
+a {
+  color: #006699;
+}
+
+a:hover {
+  color: #003366;
+}
+
+a:focus {
+  outline: 3px solid gold;
+  background: gold;
+  color: black;
+}

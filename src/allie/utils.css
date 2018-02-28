@@ -1,0 +1,20 @@
+/* Hide visually (readable by screen readers, etc) */
+.visuallyhidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+/* Allow keyboard users to see interactive elements on focus */
+.visually-hidden a:focus,
+.visually-hidden input:focus,
+.visually-hidden button:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}

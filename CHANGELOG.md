@@ -2,6 +2,8 @@
 
 ## Unreleased (to be 0.2.0)
 
+* Include normalize.css in the distributed file
+* Broke the source css down into component stylesheets, these are compiled together with postcss-import
 * Add styling for select elements
 * Add styling for links
 * Add styling for small text

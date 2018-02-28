@@ -1,18 +1,23 @@
 const gulp = require('gulp');
 const postcss = require('gulp-postcss');
 
-const entry = './src/*.css';
-const dist = './dist';
+const paths = {
+  css: {
+    entry: './src/*.css',
+    watch: './src/**/*.css',
+    dist: './dist'
+  }
+};
 
 gulp.task('styles', () => {
   return gulp
-    .src(entry)
+    .src(paths.css.entry)
     .pipe(postcss({ modules: true }))
-    .pipe(gulp.dest(dist));
+    .pipe(gulp.dest(paths.css.dist));
 });
 
 gulp.task('watch', () => {
-  gulp.watch(entry, ['styles']);
+  gulp.watch(paths.css.watch, ['styles']);
 });
 
 // Dev
