@@ -1,6 +1,8 @@
 # Allie
 
-Allie is a base stylesheet intended to provide basic, opinonated and accessible defaults for starting a project or using as a fallback style for legacy browsers. It is opinionated and builds upon the defaults set by [normalize.css](https://necolas.github.io/normalize.css/).
+Allie is a base stylesheet intended to provide accessible defaults for starting a project or using as a fallback style for legacy browsers (for example, if you are using feature queries for modern browsers).
+
+Allie builds upon [normalize.css](https://necolas.github.io/normalize.css/) which fixes inconsistencies between browsers. On top of this Allie provides a number of defaults which we have found to be beneficial when developing complex layouts, these are opinionated defaults because they are based on our experience and taste. While we have chosen to include opinionated defaults, we intend to make sure that the stylesheet remains basic and lightweight because the goal is to create a starting point for a wide variety of projects.
 
 ## Installing with npm
 
