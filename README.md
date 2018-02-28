@@ -21,7 +21,7 @@ Examples of the styles should be visible in the html file in the example directo
 
 ## Browser support
 
-The project is planning to support Internet Explorer 9 and above and the latest versions of Chrome, Edge, Firefox and Safari.
+The project is planning to support Internet Explorer 9 and above and the latest versions of Chrome, Edge, Firefox and Safari. Other modern browsers are also likely to work well but we do not test on anything else at the moment.
 
 ## Legal information
 
