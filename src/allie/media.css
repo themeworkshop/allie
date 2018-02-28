@@ -3,3 +3,15 @@
 img {
   vertical-align: top;
 }
+
+figure {
+  margin: 0;
+  display: table;
+  border: 1px solid #ccc;
+}
+
+figcaption {
+  padding: 0.5em;
+  background: #eee;
+  border-top: 1px solid #ccc;
+}

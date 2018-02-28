@@ -8,6 +8,7 @@
 * Add styling for links
 * Add styling for small text
 * Add example for abbreviations
+* Add styling for figure and figcaption
 * Add image styling which removes extra descender spacing
 * Revert list styling back to using negative margin to prevent text wrapping under the bullet
 * Expand input styling to more types

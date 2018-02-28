@@ -43,15 +43,25 @@
       <small>This is small text</small>
     </p>
   </section>
+
   <section id="media" aria-labelledby="media-heading">
     <h2 id="form-heading">Media</h2>
+
     <h3>Images</h3>
     <img src="example/320x200.png" alt="example image">
+
     <h3>Pictures</h3>
     <picture>
       <source href="example/320x200">
     </picture>
+
+    <h3>Figure</h3>
+    <figure>
+      <img src="example/320x200.png" alt="example image">
+      <figcaption>This is image is just a placeholder.</figcaption>
+    </figure>
   </section>
+
   <section id="forms" aria-labelledby="forms-heading">
     <h2 id="forms-heading">Forms</h2>
     <form method=POST>
@@ -95,8 +105,11 @@
         <label for="checkbox-3">Checkbox 3</label>
       </fieldset>
 
-      <label for="name ">Name</label>
-      <input type="text" id="name" name="name">
+      <label for="text ">Text</label>
+      <input type="text" id="text" name="text">
+
+      <label for="number ">Number</label>
+      <input type="number" id="number" name="number">
 
       <label for="email">Email address</label>
       <input type="email" id="email" name="email">
@@ -110,7 +123,7 @@
       <label for="date ">Date</label>
       <input type="datetime-local" id="date" name="date">
 
-      <label for="time ">Time</label>
+      <label for="time">Time</label>
       <input type="time" id="time" name="time">
 
       <label for="search ">Search</label>
@@ -124,6 +137,15 @@
         <option>Scotland</option>
         <option>Wales</option>
       </select>
+
+      <label for="range">Range</label>
+      <input type="range" id="range" name="range">
+
+      <label for="file">File</label>
+      <input type="file" id="file" name="file">
+
+      <label for="color ">Color</label>
+      <input type="color" id="color" name="color">
 
       <button type="button">Button</button>
 

@@ -402,7 +402,19 @@ img {
   vertical-align: top;
 }
 
-/* Forms */
+figure {
+  margin: 0;
+  display: table;
+  border: 1px solid #ccc;
+}
+
+figcaption {
+  padding: 0.5em;
+  background: #eee;
+  border-top: 1px solid #ccc;
+}
+
+/* Labels */
 
 label {
   font-weight: bold;
@@ -427,6 +439,8 @@ legend {
   margin-bottom: 5px;
   margin-bottom: 15px;
 }
+
+/* Inputs */
 
 input,
 select {
@@ -454,6 +468,50 @@ input[type='checkbox'] + label {
   margin-left: 5px;
 }
 
+input[type='range'] {
+  border: 0;
+}
+
+input[type='file'] {
+  border: 0;
+  background: none;
+  padding: 0;
+  border: 1px solid black;
+}
+
+input[type='file']::-ms-value {
+  background: white;
+  display: block;
+  padding: 5px;
+  border: 0;
+}
+
+input[type='file']::-ms-browse {
+  border: 0;
+  display: inline-block;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  border-left: 1px solid black;
+}
+
+input[type='file']::-webkit-file-upload-button {
+  background: #ddd;
+  border: 0;
+  padding: 0.5em;
+  border-right: 1px solid black;
+  margin-right: 2em;
+}
+
+input[type='color'] {
+  border: 0;
+  padding: 0;
+  padding: 3px 5px;
+  border: 1px solid black;
+  background: #ddd;
+  width: 3em;
+  height: 3em;
+}
+
 input:invalid {
   outline: 3px solid red;
 }
@@ -463,6 +521,8 @@ select:focus {
   outline: 3px solid orange;
   outline-offset: 0;
 }
+
+/* Buttons */
 
 button {
   display: block;
@@ -481,7 +541,7 @@ form button {
 
 button,
 form button[type='button'] {
-  background: #ccc;
+  background: #ddd;
   color: black;
   border-radius: 5%;
 }
