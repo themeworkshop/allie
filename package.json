@@ -1,20 +1,17 @@
 {
   "name": "@themeworkshop/allie",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "An accessible base stylesheet",
   "main": "dist/allie.css",
   "style": "dist/allie.css",
-  "files": [
-    "LICENSE",
-    "dist/allie.css"
-  ],
+  "files": ["LICENSE", "dist/allie.css"],
   "dependencies": {},
   "devDependencies": {
-    "autoprefixer": "^8.0.0",
+    "autoprefixer": "^8.4.1",
     "gulp": "^3.9.1",
     "gulp-postcss": "^7.0.1",
     "normalize.css": "^8.0.0",
-    "postcss": "^6.0.19",
+    "postcss": "^6.0.22",
     "postcss-import": "^11.1.0",
     "postcss-pxtorem": "^4.0.1"
   },

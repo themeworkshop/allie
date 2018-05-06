@@ -356,19 +356,61 @@ body {
 
 @media (min-width: 40em) {
   body {
-    font-size: 1.2;
+    font-size: 1.2em;
   }
 }
 
-ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.25em;
+}
+
+h1 {
+  font-size: 2.25em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0.75em;
+}
+
 ul {
-  margin-left: -1em;
+  margin: 0 0 0.75em -1.3em;
+}
+
+ol {
+  margin: 0 0 0.75em -0.9em;
 }
 
 blockquote {
   border-left: 5px solid black;
   padding: 0.25em 0 0.25em 0.75em;
-  margin-left: 0;
+  margin: 0 0 0.75em 0;
 }
 
 small {
@@ -378,6 +420,7 @@ small {
 abbr[title] {
   text-decoration: none;
   border-bottom: 2px dotted black;
+  cursor: help;
 }
 
 /* Links */
@@ -552,7 +595,7 @@ button:focus {
 
 /* Hide visually (readable by screen readers, etc) */
 
-.visuallyhidden {
+.visually-hidden {
   position: absolute;
   overflow: hidden;
   clip: rect(0 0 0 0);
