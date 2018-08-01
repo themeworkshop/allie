@@ -2,9 +2,10 @@
 
 @import 'normalize.css';
 
-/*! allie.css v0.3.0 | MIT License | github.com/themeworkshop/allie */
+/*! allie.css v0.4.0 | MIT License | github.com/themeworkshop/allie */
 @import 'allie/typography';
 @import 'allie/links';
 @import 'allie/media';
 @import 'allie/forms';
 @import 'allie/utils';
+@import 'allie/tables';
