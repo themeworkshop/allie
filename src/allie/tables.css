@@ -5,9 +5,20 @@ table {
   text-align: left;
 }
 
+caption {
+  font-size: 1.5em;
+  text-align: left;
+  background: #000;
+  color: #fff;
+}
+
 table,
 th,
 td {
   border: 1px solid #ccc;
   padding: 0.5rem;
+}
+
+th {
+  background: #eee;
 }
