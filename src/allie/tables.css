@@ -1,0 +1,13 @@
+/* Tables */
+
+table {
+  border-collapse: collapse;
+  text-align: left;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+}

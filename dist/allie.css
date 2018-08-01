@@ -343,7 +343,7 @@ template {
   display: none;
 }
 
-/*! allie.css v0.2.0 | MIT License | github.com/themeworkshop/allie */
+/*! allie.css v0.3.0 | MIT License | github.com/themeworkshop/allie */
 
 /* Typography */
 
@@ -614,4 +614,18 @@ button:focus {
   position: static;
   width: auto;
   height: auto;
+}
+
+/* Tables */
+
+table {
+  border-collapse: collapse;
+  text-align: left;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
 }
