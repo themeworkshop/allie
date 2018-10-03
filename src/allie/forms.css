@@ -101,7 +101,7 @@ input:invalid {
 
 input:focus,
 select:focus {
-  outline: 3px solid orange;
+  outline: 3px solid gold;
   outline-offset: 0;
 }
 
@@ -129,5 +129,5 @@ form button[type='button'] {
 }
 
 button:focus {
-  outline: 3px solid orange;
+  outline: 3px solid gold;
 }
